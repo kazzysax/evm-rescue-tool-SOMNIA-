@@ -82,12 +82,14 @@ BNB:      https://bsc-dataseed.binance.org
 
 node rescue.js
 
+
 The script will:
 1. Check wallet gas status
 2. Pre-sign gas funding transaction
 3. Enter standby — watching 24/7
 4. Fire automatically the instant balance detected
 5. Sweep assets to your safe wallet
+6. Ensure to pretest before main claim day
 
 ---
 
@@ -109,7 +111,8 @@ The script will:
 - Delete .env after rescue completes
 - Retire compromised wallet after rescue
 - Verify source code before running
--NEVER SHARE .ENV FILE
+- NEVER SHARE .ENV FILE
+- Ensure you pretest before the main clain activity
 
 ---
 
@@ -133,7 +136,7 @@ Gas funding failed      — top up sponsor wallet
 
 ## Tests
 This model has only been tested and confirmed to work on somnia chain as of when uploaded, further testing continue and updates will be made soonest with live results shared 
-SOMNIA rescue stands at 3-4secs when wallet has gas, 5 secs when sponsor wallet send gas first
+SOMNIA rescue stands at 3-4secs when compromised wallet has gas, 5 secs when sponsor wallet send gas first
 
 ## Disclaimer
 This tool is not a live tool on web so as to keep users private keys secured and not to go against ethics, if you see this or any other of this sort online, please do not use. This script should only be obtained from github and ran personally on PC, so as to prevent private key compromise. Do not share file named ".ENV" ON SYSTEM to any one for any reason as it contains sensitive info.
