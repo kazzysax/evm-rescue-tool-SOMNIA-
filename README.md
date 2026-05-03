@@ -1,4 +1,4 @@
-# EVM Rescue Tool — Maximum Speed Edition v4.0
+# EVM Rescue Tool — Maximum Speed Edition v1.0
 
 A local rescue tool that monitors a compromised EVM wallet 
 and automatically sweeps assets the moment they arrive — 
@@ -129,3 +129,7 @@ Sponsor balance 0       — wrong private key or wrong RPC
 All RPCs failed         — check RPC_BACKUP_1 and RPC_BACKUP_2
 WebSocket 502           — auto switches to polling, normal
 Gas funding failed      — top up sponsor wallet
+
+## Tests
+This model has only been tested and confirmed to work on somnia chain as of when uploaded, further testing continue and updates will be made soonest with live results shared 
+SOMNIA rescue stands at 3-4secs when wallet has gas, 5 secs when sponsor wallet send gas first
