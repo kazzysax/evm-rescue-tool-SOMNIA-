@@ -42,7 +42,8 @@ Option 2 — Without Git:
 
 ## Configuration
 
-cp .env.example .env
+copy .env.example 
+paste file and rename: .env
 
 Open .env and fill in:
 
@@ -56,8 +57,8 @@ TOKEN_CONTRACT_ADDRESS=
 POLL_INTERVAL_MS=500
 GAS_MULTIPLIER=7
 MAX_GAS_MULTIPLIER=15
-MIN_BALANCE_SOMI=1
-SWEEP_DELAY_MS=500
+MIN_BALANCE_SOMI=10
+SWEEP_DELAY_MS=0
 MAX_RETRIES=5
 MAX_BLOCKS=20
 
@@ -133,3 +134,6 @@ Gas funding failed      — top up sponsor wallet
 ## Tests
 This model has only been tested and confirmed to work on somnia chain as of when uploaded, further testing continue and updates will be made soonest with live results shared 
 SOMNIA rescue stands at 3-4secs when wallet has gas, 5 secs when sponsor wallet send gas first
+
+## Disclaimer
+This tool is not a live tool on web so as to keep users private keys secured and not to go against ethics, if you see this or any other of this sort online, please do not use. This script should only be obtained from github and ran personally on PC, so as to prevent private key compromise. Do not share file named ".ENV" ON SYSTEM to any one for any reason as it contains sensitive info.
