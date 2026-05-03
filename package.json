@@ -1,0 +1,17 @@
+{
+  "name": "flashbot-rescue",
+  "version": "1.0.0",
+  "description": "Local Flashbots rescue script — sweep assets from compromised EVM wallet",
+  "main": "rescue.js",
+  "type": "module",
+  "scripts": {
+    "start": "node rescue.js"
+  },
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.6.2",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.3",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  }
+}
