@@ -27,10 +27,10 @@ Keys never leave your machine. No server. No backend.
 ## Installation
 
 Option 1 — With Git:
-Hold windws button and R and click enter
-git clone https://github.com/YOURUSERNAME/evm-rescue-tool.git
-cd evm-rescue-tool
-npm install
+1.Hold windows button and R and click enter
+2.git clone https://github.com/kazzysax/evm-rescue-tool.git
+3.cd evm-rescue-tool
+4.Run : npm install
 
 Option 2 — Without Git:
 1. Click the green Code button on this page
